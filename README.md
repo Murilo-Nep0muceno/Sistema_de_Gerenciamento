@@ -1,3 +1,21 @@
+🛠️ Tecnologias Utilizadas
+
+A aplicação de gerenciamento foi desenvolvida com foco em organização, clareza e boas práticas de arquitetura. As principais tecnologias utilizadas foram:
+
+    Java 17
+
+    Spring Boot
+
+    Spring MVC
+
+    Spring Data JPA
+
+    MySQL
+
+    Thymeleaf
+
+    Bean Validation (Jakarta Validation)
+    
 🧱 Arquitetura MVC (Model-View-Controller)
 
 A estrutura da aplicação foi baseada no padrão MVC, amplamente utilizado para separar responsabilidades e tornar o código mais limpo, organizado e de fácil manutenção. Abaixo, explicamos cada camada e sua função no projeto:
