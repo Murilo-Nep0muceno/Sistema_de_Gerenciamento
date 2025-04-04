@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hello World</h1>
+    
+    <form onsubmit="form(event)">
+        <label for="">Nome</label><br>
+        <input id="nome" type="text"><br>
+        <label for="">Email</label><br>
+        <input id="email" type="text"><br>
+        <label for="">Senha</label><br>
+        <input id="senha" type="text"><br>
+
+        <button type="submit">Cadastrar</button>
+    </form>
+
+    <h1>Listar Todos</h1>
+    <ul th:each ="user : ${userList}">
+        ID: <span th:text="${user.id}"></span>
+       ,  Nome: <span th:text="${user.nome}"></span> 
+       ,  Email: <span th:text="${user.email}"></span> 
+       ,  Senha: <span th:text="${user.senha}"></span> <button th:onclick="'excluirUsuario('+ ${user.id} +')  '">Excluir</button>
+
+    </ul>
+</body>
+    <script th:src="@{/scripts/user.js}"></script>
+
+</html>
