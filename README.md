@@ -131,7 +131,7 @@ A aplicação também oferece suporte para comunicação via **API REST**, permi
 
 Todos os testes das APIs (endpoints REST para Usuários e Produtos) foram organizados e podem ser acessados no link abaixo:
 
-🔗 [Testes das APIs - Google Drive](https://drive.google.com/drive/folders/1HXA0LV1Jnavnf1ZTAG2JDN7q5iRPwMco?usp=drive_link)
+🔗 [Testes das APIs - Google Drive](https://drive.google.com/drive/folders/1HXA0LV1Jnavnf1ZTAG2JDN7q5iRPwMco?usp=sharing)
 
 O conteúdo inclui:
 - Requisições simuladas com Postman.
@@ -139,4 +139,8 @@ O conteúdo inclui:
 - Respostas esperadas e mensagens de erro de validação.
 
 Isso garante maior transparência e facilidade para quem desejar testar a aplicação localmente ou em ambiente de desenvolvimento.
+
+**Desenvolvido Por**
+Murilo Dornelas Martins Nepomuceno
+Leonardo Gomes da Silva Araújo
 
