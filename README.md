@@ -2,11 +2,13 @@
 
 A aplicação de gerenciamento foi desenvolvida com foco em organização, clareza e boas práticas de arquitetura. As principais tecnologias utilizadas foram:
 
-    Java 17
+    Java 21
 
-    Spring Boot
+    Spring Boot 3.4.4
 
     Spring MVC
+
+    Maven 
 
     Spring Data JPA
 
