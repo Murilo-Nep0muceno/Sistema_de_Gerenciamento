@@ -134,3 +134,18 @@ PUT /produtos/api/{id} → Atualiza um produto existente.
 
 DELETE /produtos/api/{id} → Exclui um produto.
 
+🧪 Testes das APIs
+
+Todos os testes das APIs (endpoints REST para Usuários e Produtos) foram organizados e podem ser acessados no link abaixo:
+
+🔗 Testes das APIs - Google Drive
+
+O conteúdo inclui:
+
+Requisições simuladas com Postman.
+
+Exemplos de payloads JSON válidos e inválidos.
+
+Respostas esperadas e mensagens de erro de validação.
+
+Isso garante maior transparência e facilidade para quem desejar testar a aplicação localmente ou em ambiente de desenvolvimento.
