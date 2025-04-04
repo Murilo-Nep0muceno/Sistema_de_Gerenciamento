@@ -47,13 +47,13 @@ private Double preco;
 
 ---
 
-### 🔹 View (Visão)
+### 🔹 View 
 
 A camada de visualização foi construída com o **Thymeleaf**, que facilita a renderização dinâmica de páginas HTML utilizando dados fornecidos pelo backend. Isso permite a criação de formulários interativos, listagens e ações como editar e excluir usuários e produtos.
 
 ---
 
-### 🔹 Controller (Controlador)
+### 🔹 Controller 
 
 Os controladores (`@Controller` e `@RestController`) são responsáveis por receber requisições HTTP, processar os dados (via Model) e retornar uma **View** (HTML) ou um **JSON** (no caso de APIs REST).
 
